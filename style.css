@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    color: coral;
+    background-color: lawngreen;
+    height: 50px;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(148, 240, 105);
+    display: inline-block;
+    
+}
+.logo{
+    float: left;
+    width: 10%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.logo span{
+    font-size: 22px;
+    text-shadow: 3px 0px 2px coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.nav{
+    float: left;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline;
+    padding: 3px 3px 5px 3px;
+    margin: auto 5px;
+    text-align: center;
+}
+
+.nav ul li a{
+    color: rgb(87, 77, 97);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.nav ul li:hover{
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.search{
+    float: left;
+    width: 20%;
+    height: inherit;
+    text-align: center;
+    line-height: 20px;
+}
+.search input{
+    width: 100%;
+    float: left;
+    padding: 8px 6px 6px 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px ;
+}
+.auth{
+    float: right;
+    overflow: hidden;
+    width: 15%;
+    height: auto;
+    line-height: 50px;
+    text-align: center;
+
+}
+.auth button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+.auth button:hover{
+    color: aqua;
+    background-color: crimson;
+}
